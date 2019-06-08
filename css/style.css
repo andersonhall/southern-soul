@@ -13,10 +13,9 @@ body {
 	background: #1c1c1c;
 	font-size: 1.2rem;
 	background-image: url('/img/band.jpg');
-	background-size: cover;
+	background-size: 150vh;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: left;
+	background-attachment: scroll;
 }
 
 ul {
