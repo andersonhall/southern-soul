@@ -4,12 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link
-			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-			rel="stylesheet"
-			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-			crossorigin="anonymous"
-		/>
+		<script src="https://kit.fontawesome.com/7655b5cd81.js"></script>
 		<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png" />
@@ -19,39 +14,134 @@
 	</head>
 	<body class="bg-img">
 		<div class="overlay">
-			<header class="header">
-				<nav class="nav left-nav">
-					<ul class="nav-list">
-						<li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
-						<li class="nav-item"><a href="/songlist.html" class="nav-link">Music</a></li>
-						<li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
+			<main class="container">
+				<header class="header">
+					<img src="img/ss-white-banner.png" alt="logo" class="logo" />
+				</header>
+
+				<nav id="main-nav" class="hide-mobile">
+					<ul>
+						<li><a href="#members">Meet The Band</a></li>
+						<li><a href="#songlist">What We Play</a></li>
+						<li><a href="#upcoming">Upcoming Shows</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
-				<img src="img/ss-white-banner.png" alt="logo" class="logo" />
-				<nav class="nav right-nav">
-					<ul class="nav-list">
-						<li class="nav-item"><a href="/upcoming.html" class="nav-link">Upcoming Shows</a></li>
-						<li class="nav-item"><a href="/Contact.html" class="nav-link">Contact</a></li>
+
+				<section id="about" class="card">
+					<h4 class="card-title">About Us</h4>
+					<p>
+						We are a band with a Southern Soul and a Soulful Sound, specializing in weddings,
+						festivals, and private and corporate events. Our music includes hits from the 60s, 70s,
+						and 80s that is sure to please any crowd.
+					</p>
+				</section>
+
+				<section id="booking" class="card">
+					<h4 class="card-title">Booking Info</h4>
+					<p>Interested in a booking us for your next live event?</p>
+					<p><a href="#contact">Contact us</a> below, or give our booking agent a call:</p>
+					<a class="btn mobile-only" tel:1-662-614-1300>Call Now</a>
+					<div class="btn hide-mobile">662-538-2815</div>
+				</section>
+
+				<section id="social" class=" card mobile-only">
+					<h4 class="card-title">Find Us On:</h4>
+					<div class="social-icons">
+						<a href="https://www.facebook.com/southernsoulandcompany/">
+							<i class="fab fa-facebook-square fa-2x"></i
+						></a>
+					</div>
+				</section>
+
+				<section id="members" class="card">
+					<h4 class="card-title">The Band</h4>
+					<div class="member-info">
+						<img src="img/aaron.jpg" alt="Aaron" />
+						<p><strong>Aaron Golden</strong> - Vocals</p>
+						<img src="img/mary-beth.jpg" alt="Mary Beth" />
+						<p><strong>Mary Beth Muncie</strong> - Vocals</p>
+						<img src="img/rhythm-section.jpg" alt="rhythm section" />
+						<ul>
+							<li><strong>Robert Hall</strong> - Guitar</li>
+							<li><strong>Terrence Strong</strong> - Guitar</li>
+							<li><strong>Bobby Johnson</strong> - Bass</li>
+							<li><strong>Gabriel West</strong> - Keys</li>
+							<li><strong>Brandon Garrett</strong> - Drums</li>
+						</ul>
+						<img src="img/horn-section.jpg" alt="horn section" />
+						<ul>
+							<li><strong>Andy Hall</strong> - Trumpet</li>
+							<li><strong>Emily Coats</strong> - Saxophone</li>
+							<li><strong>Jesse Martin</strong> - Saxophone</li>
+							<li><strong>Derek Taylor</strong> - Trombone</li>
+						</ul>
+					</div>
+				</section>
+
+				<section id="songlist" class="card">
+					<h4 class="card-title">Song List</h4>
+					<ul>
+						<li>634-5789</li>
+						<li>Ain't No Sunshie</li>
+						<li>Them Changes</li>
+						<li>Tell Mama</li>
+						<li>Treat Her Right</li>
+						<li>Hold On, I'm Coming</li>
+						<li>I'd Rather Be Blind</li>
+						<li>Make Me Smile</li>
+						<li>Midnight Hour</li>
+						<li>Twist & Shout</li>
+						<li>Land of 1,000 Dances</li>
+						<li>Sweet Soul Music</li>
+						<li>Shake Your Tail Feather</li>
+						<li>Can't Turn You Loose</li>
+						<li>Mustang Sally</li>
+						<li>Respect</li>
+						<li>Slide On</li>
+						<li>You Are The Best Thing</li>
+						<li>Good Lovin'</li>
+						<li>Standing On Shaky Ground</li>
+						<li>Knock On Wood</li>
+						<li>Proud Mary</li>
+						<li>Purple Rain</li>
+						<li>I Feel Good</li>
+						<li>Everybody Needs Somebody</li>
+						<li>Fire</li>
+						<li>Wild Nights</li>
+						<li>My Girl</li>
+						<li>Let's Stay Together</li>
 					</ul>
-				</nav>
-			</header>
+				</section>
 
-			<section id="about" class="container card">
-				<h4 class="card-title">About Us</h4>
-				<p>
-					We are a band with a Southern Soul and a Soulful Sound, specializing in weddings,
-					festivals, and private and corporate events. Our music includes hits from the 60s, 70s,
-					and 80s that is sure to please any crowd. Message us for more information or to reserve
-					Southern Soul & Co. for your next event.
-				</p>
-			</section>
+				<section id="upcoming" class="card">
+					<h4 class="card-title">Upcoming Shows</h4>
+					<p class="show-date">June 23rd, 5:00pm</p>
+					<p class="show-location">Desoto Hills Baptist Church</p>
+					<p class="show-city">Southaven, MS</p>
+					<small>Private Event</small>
+				</section>
 
-			<section id="booking" class="container card">
-				<h4 class="card-title">Booking Info</h4>
-				<p>Interested in a live band for your next big event?</p>
-				<p><a href="#contact">Contact us</a> below, or give our booking agent a call:</p>
-				<a class="btn btn-cta" tel:1-662-614-1300>Call Now</a>
-			</section>
+				<section id="contact" class="card">
+					<h4 class="card-title">Message Us</h4>
+					<form
+						method="post"
+						enctype="text/plain"
+						action="mailto:andersonhall@gmail.com?subject=Website Contact Form Submission"
+					>
+						<input type="text" name="name" placeholder="Your Name" required />
+						<input type="email" name="email" placeholder="Your Email" required />
+						<textarea name="message" placeholder="Your message..." required></textarea>
+						<button type="submit" class="btn">Send</button>
+					</form>
+				</section>
+
+				<section id="book-now" class="mobile-only">
+					<a class="btn mobile-only" tel:1-662-614-1300
+						><i class="fas fa-phone-alt"></i> Call Now To Book</a
+					>
+				</section>
+			</main>
 		</div>
 	</body>
 </html>
