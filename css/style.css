@@ -7,15 +7,16 @@
 	scroll-behavior: smooth;
 }
 
-body {
-	position: static;
+html {
 	font-family: 'Poppins', sans-serif;
-	background: #1c1c1c;
 	font-size: 1.2rem;
-	background-image: url('/img/band.jpg');
+	background: url('/img/band.jpg') no-repeat left center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	height: 100%;
+	overflow: hidden;
 }
 
 ul {
