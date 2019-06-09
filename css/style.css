@@ -122,6 +122,10 @@ ul {
 	color: white;
 }
 
+#upcoming hr {
+	margin: 1rem 2rem;
+}
+
 #contact {
 	margin: 2rem auto;
 	display: flex;
@@ -139,8 +143,8 @@ ul {
 	margin: 0.3rem auto;
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
 	padding: 0.3rem;
-	min-height: 6rem;
 }
 
 #book-now {
