@@ -7,6 +7,10 @@
 	scroll-behavior: smooth;
 }
 
+a {
+	text-decoration: none;
+}
+
 html {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.2rem;
@@ -94,7 +98,6 @@ ul {
 
 #booking a {
 	color: #fff;
-	text-decoration: none;
 }
 
 #members img {
