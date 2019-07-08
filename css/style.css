@@ -105,6 +105,10 @@ ul {
 	margin: 1rem auto;
 }
 
+#upcoming {
+	height: 100%;
+}
+
 .show-date {
 	border-bottom: 2px solid rgb(184, 106, 43);
 	max-width: 400px;
@@ -130,6 +134,13 @@ ul {
 	margin: 2rem auto;
 	display: flex;
 	flex-direction: column;
+	height: 100%;
+}
+
+.message {
+	min-height: 200px;
+	height: 100%;
+	resize: none;
 }
 
 #contact input {
