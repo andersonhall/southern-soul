@@ -139,7 +139,7 @@ ul {
 
 .message {
 	min-height: 200px;
-	height: 100%;
+	height: 70%;
 	resize: none;
 }
 
@@ -287,10 +287,11 @@ ul {
 
 	.member-info {
 		grid-template-columns: repeat(2, 1fr);
+		font-size: 1.2rem;
 	}
 
 	.member-info img {
-		max-width: 300px;
+		max-width: 500px;
 	}
 
 	#songlist {
@@ -321,7 +322,10 @@ ul {
 
 @media (min-width: 1268px) {
 	.member-info {
-		grid-template-columns: repeat(4, 1fr);
+		font-size: 1.4rem;
+	}
+	.member-info img {
+		max-width: 600px;
 	}
 	#songlist ul {
 		grid-template-columns: repeat(3, 1fr);
