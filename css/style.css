@@ -107,6 +107,7 @@ ul {
 
 #upcoming {
 	height: 100%;
+	display: none;
 }
 
 .show-date {
@@ -135,6 +136,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	display: none;
 }
 
 .message {
