@@ -14,7 +14,7 @@ a {
 html {
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
-  background: url('/img/band.jpeg') no-repeat left center fixed;
+  background: url('/img/band.jpg') no-repeat left center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
