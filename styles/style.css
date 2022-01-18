@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .overlay {
   content: '';
   position: absolute;
@@ -261,17 +265,13 @@ ul {
     grid-gap: 1rem;
     grid-template-areas:
       'header header'
-      'mm mm'
       'nav nav'
       'about booking '
+      'ad ad'
       'members members'
       'songlist songlist'
       'upcoming contact'
       'video video';
-  }
-
-  #mm {
-    grid-area: mm;
   }
 
   header {
@@ -285,6 +285,11 @@ ul {
 
   #main-nav li {
     margin: 0 1rem;
+  }
+
+  #ad {
+    grid-area: ad;
+    width: 100%;
   }
 
   #about {
